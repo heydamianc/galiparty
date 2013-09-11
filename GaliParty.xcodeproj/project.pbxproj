@@ -29,6 +29,14 @@
 		5E44879317E0F12800490EC0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E44879217E0F12800490EC0 /* AudioToolbox.framework */; };
 		5E44879517E0F13600490EC0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E44879417E0F13600490EC0 /* AVFoundation.framework */; };
 		5E44879717E0F3AF00490EC0 /* DiscoBall@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E44879617E0F3AF00490EC0 /* DiscoBall@2x.jpg */; };
+		5E44879D17E0F51C00490EC0 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5E44879917E0F51C00490EC0 /* AcousticModelEnglish.bundle */; };
+		5E44879E17E0F51C00490EC0 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5E44879917E0F51C00490EC0 /* AcousticModelEnglish.bundle */; };
+		5E44879F17E0F51C00490EC0 /* AcousticModelSpanish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5E44879A17E0F51C00490EC0 /* AcousticModelSpanish.bundle */; };
+		5E4487A017E0F51C00490EC0 /* AcousticModelSpanish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5E44879A17E0F51C00490EC0 /* AcousticModelSpanish.bundle */; };
+		5E4487A117E0F51C00490EC0 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E44879B17E0F51C00490EC0 /* OpenEars.framework */; };
+		5E4487A217E0F51C00490EC0 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E44879B17E0F51C00490EC0 /* OpenEars.framework */; };
+		5E4487A317E0F51D00490EC0 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E44879C17E0F51C00490EC0 /* Slt.framework */; };
+		5E4487A417E0F51D00490EC0 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E44879C17E0F51C00490EC0 /* Slt.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +78,10 @@
 		5E44879217E0F12800490EC0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		5E44879417E0F13600490EC0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		5E44879617E0F3AF00490EC0 /* DiscoBall@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "DiscoBall@2x.jpg"; path = "GaliParty/DiscoBall@2x.jpg"; sourceTree = SOURCE_ROOT; };
+		5E44879917E0F51C00490EC0 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AcousticModelEnglish.bundle; path = Libraries/AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		5E44879A17E0F51C00490EC0 /* AcousticModelSpanish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AcousticModelSpanish.bundle; path = Libraries/AcousticModelSpanish.bundle; sourceTree = "<group>"; };
+		5E44879B17E0F51C00490EC0 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenEars.framework; path = Libraries/OpenEars.framework; sourceTree = "<group>"; };
+		5E44879C17E0F51C00490EC0 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Slt.framework; path = Libraries/Slt.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +97,8 @@
 				5E44875417E0E52100490EC0 /* Foundation.framework in Frameworks */,
 				5E44875617E0E52100490EC0 /* CoreGraphics.framework in Frameworks */,
 				5E44878D17E0E69600490EC0 /* GalileoControl.framework in Frameworks */,
+				5E4487A117E0F51C00490EC0 /* OpenEars.framework in Frameworks */,
+				5E4487A317E0F51D00490EC0 /* Slt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +109,8 @@
 				5E44877617E0E52200490EC0 /* SenTestingKit.framework in Frameworks */,
 				5E44877717E0E52200490EC0 /* UIKit.framework in Frameworks */,
 				5E44877817E0E52200490EC0 /* Foundation.framework in Frameworks */,
+				5E4487A217E0F51C00490EC0 /* OpenEars.framework in Frameworks */,
+				5E4487A417E0F51D00490EC0 /* Slt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +139,10 @@
 		5E44875017E0E52100490EC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5E44879917E0F51C00490EC0 /* AcousticModelEnglish.bundle */,
+				5E44879A17E0F51C00490EC0 /* AcousticModelSpanish.bundle */,
+				5E44879B17E0F51C00490EC0 /* OpenEars.framework */,
+				5E44879C17E0F51C00490EC0 /* Slt.framework */,
 				5E44879217E0F12800490EC0 /* AudioToolbox.framework */,
 				5E44879417E0F13600490EC0 /* AVFoundation.framework */,
 				5E44875517E0E52100490EC0 /* CoreGraphics.framework */,
@@ -269,6 +289,8 @@
 				5E44876817E0E52200490EC0 /* Default-568h@2x.png in Resources */,
 				5E44876B17E0E52200490EC0 /* MainStoryboard.storyboard in Resources */,
 				5E44879717E0F3AF00490EC0 /* DiscoBall@2x.jpg in Resources */,
+				5E44879D17E0F51C00490EC0 /* AcousticModelEnglish.bundle in Resources */,
+				5E44879F17E0F51C00490EC0 /* AcousticModelSpanish.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +299,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E44878017E0E52200490EC0 /* InfoPlist.strings in Resources */,
+				5E44879E17E0F51C00490EC0 /* AcousticModelEnglish.bundle in Resources */,
+				5E4487A017E0F51C00490EC0 /* AcousticModelSpanish.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +472,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)/Libraries\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GaliParty/GaliParty-Prefix.pch";
@@ -465,6 +490,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)/Libraries\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GaliParty/GaliParty-Prefix.pch";

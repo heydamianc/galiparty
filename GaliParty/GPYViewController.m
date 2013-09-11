@@ -5,13 +5,15 @@
 //  Created by Damian Carrillo on 9/11/13.
 //  Copyright (c) 2013 Uncodin, Inc. All rights reserved.
 //
-    
+
 #import "GPYViewController.h"
 
 static const NSInteger      kFlashViewTag  = 1234;
 static const NSTimeInterval kFlashDuration = 0.5;
 
 @interface GPYViewController ()
+@property (strong, nonatomic) FliteController *fliteController;
+@property (strong, nonatomic) Slt *slt;
 @property (weak, nonatomic) IBOutlet UIImageView *discoBallView;
 @property (assign, atomic, getter = isGalileoConnected) BOOL galileoConnected;
 @end
@@ -27,6 +29,10 @@ static const NSTimeInterval kFlashDuration = 0.5;
 - (void)viewDidAppear:(BOOL)animated
 {
     [self flashScreen];
+ 
+    [self setFliteController:[[FliteController alloc] init]];
+    [self setSlt:[[Slt alloc] init]];
+    [self repeatedlySayParty];
     
     [[Galileo sharedGalileo] setDelegate:self];
     [[Galileo sharedGalileo] waitForConnection];
@@ -93,31 +99,25 @@ static const NSTimeInterval kFlashDuration = 0.5;
     }
 }
 
+- (void)repeatedlySayParty
+{
+    if ([self isGalileoConnected]) {
+        [[self fliteController] say:@"Party" withVoice:[self slt]];
+    }
+    
+    [self performSelector:@selector(repeatedlySayParty)
+               withObject:nil
+               afterDelay:kFlashDuration];
+}
+
 #pragma mark GalileoDelegate
 
 - (void)galileoDidConnect
 {
     [self setGalileoConnected:YES];
-
-    VelocityControl *panVelocityControl = [[Galileo sharedGalileo] velocityControlForAxis:GalileoControlAxisPan];
-    PositionControl *panPositionControl = [[Galileo sharedGalileo] positionControlForAxis:GalileoControlAxisPan];
     
-    VelocityControl *tiltVelocityControl = [[Galileo sharedGalileo] velocityControlForAxis:GalileoControlAxisTilt];
-    PositionControl *tiltPositionControl = [[Galileo sharedGalileo] positionControlForAxis:GalileoControlAxisTilt];
-    
-    [tiltVelocityControl setTargetVelocity:[panVelocityControl maxVelocity]];
-    [tiltPositionControl incrementTargetPosition:180.0 completionBlock:^(BOOL wasCommandPreempted) {
-//        [tiltPositionControl incrementTargetPosition:180.0 completionBlock:^(BOOL wasCommandPreempted) {
-//            
-//        } waitUntilStationary:NO];
-    } waitUntilStationary:NO];
-    
-    [panVelocityControl setTargetVelocity:[panVelocityControl maxVelocity]];
-    [panPositionControl incrementTargetPosition:180.0 completionBlock:^(BOOL wasCommandPreempted) {
-//        [panPositionControl incrementTargetPosition:180.0 completionBlock:^(BOOL wasCommandPreempted) {
-//            
-//        } waitUntilStationary:NO];
-    } waitUntilStationary:NO];
+    VelocityControl* tiltVelocityControl = [[Galileo sharedGalileo] velocityControlForAxis:GalileoControlAxisTilt];
+    [tiltVelocityControl setTargetVelocity:[tiltVelocityControl maxVelocity] / 10.0];
 }
 
 - (void)galileoDidDisconnect
