@@ -6,8 +6,9 @@
 //  Copyright (c) 2013 Uncodin, Inc. All rights reserved.
 //
 
+#import <GalileoControl/GalileoControl.h>
 #import <UIKit/UIKit.h>
 
-@interface GPYViewController : UIViewController
+@interface GPYViewController : UIViewController <GalileoDelegate>
 
 @end

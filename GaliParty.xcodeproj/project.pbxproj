@@ -23,6 +23,12 @@
 		5E44877817E0E52200490EC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E44875317E0E52100490EC0 /* Foundation.framework */; };
 		5E44878017E0E52200490EC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E44877E17E0E52200490EC0 /* InfoPlist.strings */; };
 		5E44878317E0E52200490EC0 /* GaliPartyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E44878217E0E52200490EC0 /* GaliPartyTests.m */; };
+		5E44878D17E0E69600490EC0 /* GalileoControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E44878C17E0E69600490EC0 /* GalileoControl.framework */; };
+		5E44878F17E0E6F400490EC0 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E44878E17E0E6F400490EC0 /* libxml2.dylib */; };
+		5E44879117E0E70100490EC0 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E44879017E0E70100490EC0 /* ExternalAccessory.framework */; };
+		5E44879317E0F12800490EC0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E44879217E0F12800490EC0 /* AudioToolbox.framework */; };
+		5E44879517E0F13600490EC0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E44879417E0F13600490EC0 /* AVFoundation.framework */; };
+		5E44879717E0F3AF00490EC0 /* DiscoBall@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E44879617E0F3AF00490EC0 /* DiscoBall@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +64,12 @@
 		5E44877F17E0E52200490EC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E44878117E0E52200490EC0 /* GaliPartyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaliPartyTests.h; sourceTree = "<group>"; };
 		5E44878217E0E52200490EC0 /* GaliPartyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaliPartyTests.m; sourceTree = "<group>"; };
+		5E44878C17E0E69600490EC0 /* GalileoControl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GalileoControl.framework; path = Libraries/GalileoControl.framework; sourceTree = "<group>"; };
+		5E44878E17E0E6F400490EC0 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		5E44879017E0E70100490EC0 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		5E44879217E0F12800490EC0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5E44879417E0F13600490EC0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5E44879617E0F3AF00490EC0 /* DiscoBall@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "DiscoBall@2x.jpg"; path = "GaliParty/DiscoBall@2x.jpg"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +77,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E44879517E0F13600490EC0 /* AVFoundation.framework in Frameworks */,
+				5E44879317E0F12800490EC0 /* AudioToolbox.framework in Frameworks */,
+				5E44879117E0E70100490EC0 /* ExternalAccessory.framework in Frameworks */,
+				5E44878F17E0E6F400490EC0 /* libxml2.dylib in Frameworks */,
 				5E44875217E0E52100490EC0 /* UIKit.framework in Frameworks */,
 				5E44875417E0E52100490EC0 /* Foundation.framework in Frameworks */,
 				5E44875617E0E52100490EC0 /* CoreGraphics.framework in Frameworks */,
+				5E44878D17E0E69600490EC0 /* GalileoControl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,10 +123,15 @@
 		5E44875017E0E52100490EC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5E44875117E0E52100490EC0 /* UIKit.framework */,
-				5E44875317E0E52100490EC0 /* Foundation.framework */,
+				5E44879217E0F12800490EC0 /* AudioToolbox.framework */,
+				5E44879417E0F13600490EC0 /* AVFoundation.framework */,
 				5E44875517E0E52100490EC0 /* CoreGraphics.framework */,
+				5E44879017E0E70100490EC0 /* ExternalAccessory.framework */,
+				5E44875317E0E52100490EC0 /* Foundation.framework */,
+				5E44878C17E0E69600490EC0 /* GalileoControl.framework */,
+				5E44878E17E0E6F400490EC0 /* libxml2.dylib */,
 				5E44877517E0E52200490EC0 /* SenTestingKit.framework */,
+				5E44875117E0E52100490EC0 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,6 +139,7 @@
 		5E44875717E0E52200490EC0 /* GaliParty */ = {
 			isa = PBXGroup;
 			children = (
+				5E44879817E0F3B800490EC0 /* Images */,
 				5E44876017E0E52200490EC0 /* GPYAppDelegate.h */,
 				5E44876117E0E52200490EC0 /* GPYAppDelegate.m */,
 				5E44876917E0E52200490EC0 /* MainStoryboard.storyboard */,
@@ -158,6 +181,14 @@
 				5E44877E17E0E52200490EC0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E44879817E0F3B800490EC0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5E44879617E0F3AF00490EC0 /* DiscoBall@2x.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +268,7 @@
 				5E44876617E0E52200490EC0 /* Default@2x.png in Resources */,
 				5E44876817E0E52200490EC0 /* Default-568h@2x.png in Resources */,
 				5E44876B17E0E52200490EC0 /* MainStoryboard.storyboard in Resources */,
+				5E44879717E0F3AF00490EC0 /* DiscoBall@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +414,10 @@
 		5E44878717E0E52200490EC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GaliParty/GaliParty-Prefix.pch";
 				INFOPLIST_FILE = "GaliParty/GaliParty-Info.plist";
@@ -393,6 +429,10 @@
 		5E44878817E0E52200490EC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GaliParty/GaliParty-Prefix.pch";
 				INFOPLIST_FILE = "GaliParty/GaliParty-Info.plist";
