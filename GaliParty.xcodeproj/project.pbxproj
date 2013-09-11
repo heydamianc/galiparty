@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E44875217E0E52100490EC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E44875117E0E52100490EC0 /* UIKit.framework */; };
+		5E44875417E0E52100490EC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E44875317E0E52100490EC0 /* Foundation.framework */; };
+		5E44875617E0E52100490EC0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E44875517E0E52100490EC0 /* CoreGraphics.framework */; };
+		5E44875C17E0E52200490EC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E44875A17E0E52200490EC0 /* InfoPlist.strings */; };
+		5E44875E17E0E52200490EC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E44875D17E0E52200490EC0 /* main.m */; };
+		5E44876217E0E52200490EC0 /* GPYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E44876117E0E52200490EC0 /* GPYAppDelegate.m */; };
+		5E44876417E0E52200490EC0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E44876317E0E52200490EC0 /* Default.png */; };
+		5E44876617E0E52200490EC0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E44876517E0E52200490EC0 /* Default@2x.png */; };
+		5E44876817E0E52200490EC0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E44876717E0E52200490EC0 /* Default-568h@2x.png */; };
+		5E44876B17E0E52200490EC0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E44876917E0E52200490EC0 /* MainStoryboard.storyboard */; };
+		5E44876E17E0E52200490EC0 /* GPYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E44876D17E0E52200490EC0 /* GPYViewController.m */; };
+		5E44877617E0E52200490EC0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E44877517E0E52200490EC0 /* SenTestingKit.framework */; };
+		5E44877717E0E52200490EC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E44875117E0E52100490EC0 /* UIKit.framework */; };
+		5E44877817E0E52200490EC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E44875317E0E52100490EC0 /* Foundation.framework */; };
+		5E44878017E0E52200490EC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E44877E17E0E52200490EC0 /* InfoPlist.strings */; };
+		5E44878317E0E52200490EC0 /* GaliPartyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E44878217E0E52200490EC0 /* GaliPartyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E44877917E0E52200490EC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E44874617E0E52100490EC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E44874D17E0E52100490EC0;
+			remoteInfo = GaliParty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E44874E17E0E52100490EC0 /* GaliParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaliParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E44875117E0E52100490EC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5E44875317E0E52100490EC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5E44875517E0E52100490EC0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5E44875917E0E52200490EC0 /* GaliParty-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GaliParty-Info.plist"; sourceTree = "<group>"; };
+		5E44875B17E0E52200490EC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E44875D17E0E52200490EC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E44875F17E0E52200490EC0 /* GaliParty-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GaliParty-Prefix.pch"; sourceTree = "<group>"; };
+		5E44876017E0E52200490EC0 /* GPYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPYAppDelegate.h; sourceTree = "<group>"; };
+		5E44876117E0E52200490EC0 /* GPYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPYAppDelegate.m; sourceTree = "<group>"; };
+		5E44876317E0E52200490EC0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5E44876517E0E52200490EC0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5E44876717E0E52200490EC0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5E44876A17E0E52200490EC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5E44876C17E0E52200490EC0 /* GPYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPYViewController.h; sourceTree = "<group>"; };
+		5E44876D17E0E52200490EC0 /* GPYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPYViewController.m; sourceTree = "<group>"; };
+		5E44877417E0E52200490EC0 /* GaliPartyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaliPartyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E44877517E0E52200490EC0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5E44877D17E0E52200490EC0 /* GaliPartyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GaliPartyTests-Info.plist"; sourceTree = "<group>"; };
+		5E44877F17E0E52200490EC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E44878117E0E52200490EC0 /* GaliPartyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaliPartyTests.h; sourceTree = "<group>"; };
+		5E44878217E0E52200490EC0 /* GaliPartyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaliPartyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E44874B17E0E52100490EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E44875217E0E52100490EC0 /* UIKit.framework in Frameworks */,
+				5E44875417E0E52100490EC0 /* Foundation.framework in Frameworks */,
+				5E44875617E0E52100490EC0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E44877017E0E52200490EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E44877617E0E52200490EC0 /* SenTestingKit.framework in Frameworks */,
+				5E44877717E0E52200490EC0 /* UIKit.framework in Frameworks */,
+				5E44877817E0E52200490EC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E44874517E0E52100490EC0 = {
+			isa = PBXGroup;
+			children = (
+				5E44875717E0E52200490EC0 /* GaliParty */,
+				5E44877B17E0E52200490EC0 /* GaliPartyTests */,
+				5E44875017E0E52100490EC0 /* Frameworks */,
+				5E44874F17E0E52100490EC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E44874F17E0E52100490EC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E44874E17E0E52100490EC0 /* GaliParty.app */,
+				5E44877417E0E52200490EC0 /* GaliPartyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E44875017E0E52100490EC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E44875117E0E52100490EC0 /* UIKit.framework */,
+				5E44875317E0E52100490EC0 /* Foundation.framework */,
+				5E44875517E0E52100490EC0 /* CoreGraphics.framework */,
+				5E44877517E0E52200490EC0 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E44875717E0E52200490EC0 /* GaliParty */ = {
+			isa = PBXGroup;
+			children = (
+				5E44876017E0E52200490EC0 /* GPYAppDelegate.h */,
+				5E44876117E0E52200490EC0 /* GPYAppDelegate.m */,
+				5E44876917E0E52200490EC0 /* MainStoryboard.storyboard */,
+				5E44876C17E0E52200490EC0 /* GPYViewController.h */,
+				5E44876D17E0E52200490EC0 /* GPYViewController.m */,
+				5E44875817E0E52200490EC0 /* Supporting Files */,
+			);
+			path = GaliParty;
+			sourceTree = "<group>";
+		};
+		5E44875817E0E52200490EC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E44875917E0E52200490EC0 /* GaliParty-Info.plist */,
+				5E44875A17E0E52200490EC0 /* InfoPlist.strings */,
+				5E44875D17E0E52200490EC0 /* main.m */,
+				5E44875F17E0E52200490EC0 /* GaliParty-Prefix.pch */,
+				5E44876317E0E52200490EC0 /* Default.png */,
+				5E44876517E0E52200490EC0 /* Default@2x.png */,
+				5E44876717E0E52200490EC0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E44877B17E0E52200490EC0 /* GaliPartyTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E44878117E0E52200490EC0 /* GaliPartyTests.h */,
+				5E44878217E0E52200490EC0 /* GaliPartyTests.m */,
+				5E44877C17E0E52200490EC0 /* Supporting Files */,
+			);
+			path = GaliPartyTests;
+			sourceTree = "<group>";
+		};
+		5E44877C17E0E52200490EC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E44877D17E0E52200490EC0 /* GaliPartyTests-Info.plist */,
+				5E44877E17E0E52200490EC0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E44874D17E0E52100490EC0 /* GaliParty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E44878617E0E52200490EC0 /* Build configuration list for PBXNativeTarget "GaliParty" */;
+			buildPhases = (
+				5E44874A17E0E52100490EC0 /* Sources */,
+				5E44874B17E0E52100490EC0 /* Frameworks */,
+				5E44874C17E0E52100490EC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GaliParty;
+			productName = GaliParty;
+			productReference = 5E44874E17E0E52100490EC0 /* GaliParty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E44877317E0E52200490EC0 /* GaliPartyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E44878917E0E52200490EC0 /* Build configuration list for PBXNativeTarget "GaliPartyTests" */;
+			buildPhases = (
+				5E44876F17E0E52200490EC0 /* Sources */,
+				5E44877017E0E52200490EC0 /* Frameworks */,
+				5E44877117E0E52200490EC0 /* Resources */,
+				5E44877217E0E52200490EC0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E44877A17E0E52200490EC0 /* PBXTargetDependency */,
+			);
+			name = GaliPartyTests;
+			productName = GaliPartyTests;
+			productReference = 5E44877417E0E52200490EC0 /* GaliPartyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E44874617E0E52100490EC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GPY;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Uncodin, Inc.";
+			};
+			buildConfigurationList = 5E44874917E0E52100490EC0 /* Build configuration list for PBXProject "GaliParty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5E44874517E0E52100490EC0;
+			productRefGroup = 5E44874F17E0E52100490EC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E44874D17E0E52100490EC0 /* GaliParty */,
+				5E44877317E0E52200490EC0 /* GaliPartyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E44874C17E0E52100490EC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E44875C17E0E52200490EC0 /* InfoPlist.strings in Resources */,
+				5E44876417E0E52200490EC0 /* Default.png in Resources */,
+				5E44876617E0E52200490EC0 /* Default@2x.png in Resources */,
+				5E44876817E0E52200490EC0 /* Default-568h@2x.png in Resources */,
+				5E44876B17E0E52200490EC0 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E44877117E0E52200490EC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E44878017E0E52200490EC0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E44877217E0E52200490EC0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E44874A17E0E52100490EC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E44875E17E0E52200490EC0 /* main.m in Sources */,
+				5E44876217E0E52200490EC0 /* GPYAppDelegate.m in Sources */,
+				5E44876E17E0E52200490EC0 /* GPYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E44876F17E0E52200490EC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E44878317E0E52200490EC0 /* GaliPartyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E44877A17E0E52200490EC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E44874D17E0E52100490EC0 /* GaliParty */;
+			targetProxy = 5E44877917E0E52200490EC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E44875A17E0E52200490EC0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E44875B17E0E52200490EC0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5E44876917E0E52200490EC0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E44876A17E0E52200490EC0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		5E44877E17E0E52200490EC0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E44877F17E0E52200490EC0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E44878417E0E52200490EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E44878517E0E52200490EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E44878717E0E52200490EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GaliParty/GaliParty-Prefix.pch";
+				INFOPLIST_FILE = "GaliParty/GaliParty-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5E44878817E0E52200490EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GaliParty/GaliParty-Prefix.pch";
+				INFOPLIST_FILE = "GaliParty/GaliParty-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5E44878A17E0E52200490EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GaliParty.app/GaliParty";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GaliParty/GaliParty-Prefix.pch";
+				INFOPLIST_FILE = "GaliPartyTests/GaliPartyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5E44878B17E0E52200490EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GaliParty.app/GaliParty";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GaliParty/GaliParty-Prefix.pch";
+				INFOPLIST_FILE = "GaliPartyTests/GaliPartyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E44874917E0E52100490EC0 /* Build configuration list for PBXProject "GaliParty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E44878417E0E52200490EC0 /* Debug */,
+				5E44878517E0E52200490EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E44878617E0E52200490EC0 /* Build configuration list for PBXNativeTarget "GaliParty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E44878717E0E52200490EC0 /* Debug */,
+				5E44878817E0E52200490EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E44878917E0E52200490EC0 /* Build configuration list for PBXNativeTarget "GaliPartyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E44878A17E0E52200490EC0 /* Debug */,
+				5E44878B17E0E52200490EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E44874617E0E52100490EC0 /* Project object */;
+}
